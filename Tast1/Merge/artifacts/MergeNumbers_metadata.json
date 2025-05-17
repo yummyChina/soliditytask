@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "group1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "group2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "mergerTwoGroups",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tast1/Merge/Merge.sol": "MergeNumbers"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tast1/Merge/Merge.sol": {
+			"keccak256": "0xf7af3f4e0df440160e0bd339145117e43ab955eaf6ebed62c7d3fac157cbe4d7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13335dbe38fd4ba6343960cb585e9d2cd133daa8c6d253373b58881719fa3be3",
+				"dweb:/ipfs/QmdvsuhzZS9avoMkGbqatnJfE5Y4RfUhwQpextEMTWWbRg"
+			]
+		}
+	},
+	"version": 1
+}
